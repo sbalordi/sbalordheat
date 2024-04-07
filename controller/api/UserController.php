@@ -35,7 +35,7 @@ class UserController extends BaseController {
 
                 $this->sendData(NULL, array('HTTP/1.1 200 OK'));
             } catch(Error $e) {
-                $errorStr = e->getMessage();
+                $errorStr = $e->getMessage();
                 $this->sendData($errorStr, array('HTTP/1.1 500 Internal Server Error'));
             }
         }
