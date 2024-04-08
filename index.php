@@ -7,7 +7,9 @@ $uri = explode('/', $uri);
 
 $entity = "Base";
 
-$supported = array("user" => "User");
+$supported = array(
+    "user" => "User"
+);
 
 // Porto indietro l'array fino a trovare il primo elemento supportato
 // Così da avere un array che rappresenta la path dell'endpoint
@@ -18,7 +20,6 @@ foreach ($uri as $key => $value) {
         break; // Non sprechiamo cicli nella mia dimora 😎
     }
 }
-
 
 if (isset($uri[1]) && isset($uri[2]) && isset($supported[$uri[1]])) {
     $entity = $supported[$uri[1]];
