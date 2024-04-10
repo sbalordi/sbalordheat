@@ -13,6 +13,7 @@ $path = match (1) {
     preg_match("/\/user\?[A-Za-z]+=\d/i", $req) => "/views/user.php",
     preg_match("/\/register/i", $req) => "/views/register.php",
     preg_match("/\/$/", $req) => "/views/home.php",
+    preg_match("/\/login/i", $req) => "/views/login.php",
     default => "/views/404.php"
 };
 
