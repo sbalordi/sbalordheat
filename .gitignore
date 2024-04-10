@@ -49,3 +49,10 @@ composer.phar
 /fuel/app/logs/*/*/*
 /fuel/app/cache/*/*
 /fuel/app/config/crypt.php
+
+# Server stuff
+mysql/
+.htaccess
+
+# Secrets
+inc/config.php
