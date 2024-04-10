@@ -55,4 +55,4 @@ mysql/
 .htaccess
 
 # Secrets
-/inc/config.php
+inc/config.php
