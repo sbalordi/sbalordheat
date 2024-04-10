@@ -24,7 +24,7 @@
         border-width: 1px 0;
         box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
     }
-
+  
     .bg-b {
         background-color: #AA99BB;
     }
@@ -46,8 +46,6 @@
     .mt-6 {
         margin-top: 6rem;
     }
-
-
 
     @media (max-width: 600px) {
         .brand {
