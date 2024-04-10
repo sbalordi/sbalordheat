@@ -1,4 +1,5 @@
 <?php
+ob_start();
 session_start();
 ?>
 <!DOCTYPE html>
@@ -30,6 +31,7 @@ session_start();
         $id = $model->login($email, $password);
         if ($id != null) {
             $_SESSION["id"] = $id;
+            header( $header = "Location: /home");
         }
         } catch (Exception $e) {
             echo "<div class='alert alert-danger' role='alert'>Errore: " . $e->getMessage() . "</div>";
@@ -39,3 +41,6 @@ session_start();
     </div>
 </body>
 </html>
+<?php
+ob_end_flush();
+?>
