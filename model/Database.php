@@ -24,7 +24,7 @@ class Database {
             $statement = $this->executeStatement($query, $params);
             $result = $statement->get_result()->fetch_all(MYSQLI_ASSOC);
             $statement->close();
-            
+
             return $result;
         } catch(Exception $e) {
             throw $e;
@@ -40,11 +40,9 @@ class Database {
             }
             
             if ($params) {
-                $i = 0;
-                while ($i < sizeof($params, 0)) {
-                    $statement->bind_param($params[$i], $params[$i + 1]);
-                    $i += 2;
-                }
+                $types = $params[0];
+                array_shift($params);
+                $statement->bind_param($types, ...$params);
             }
             
             $statement->execute();
