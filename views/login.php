@@ -31,7 +31,7 @@ session_start();
         $id = $model->login($email, $password);
         if ($id != null) {
             $_SESSION["id"] = $id;
-            header( $header = "Location: /home");
+            header( $header = "Location: /");
         }
         } catch (Exception $e) {
             echo "<div class='alert alert-danger' role='alert'>Errore: " . $e->getMessage() . "</div>";
