@@ -13,9 +13,12 @@ class UserModel extends Database {
 
     public function login($email, $pw) {
         $usrarr = $this->select("SELECT id, pass_hash FROM users WHERE email=?", ["s", $email]);
-        if (isset($usrarr[0]) && password_verify($pw, $usrarr[0]["pass_hash"])) {
-            $_SESSION["email"] = $usrarr[0]["id"];
-            header("Location: /");
+        if (!isset($usrarr[0])) {
+            throw new Exception("Utente non trovato");
         }
+        if (isset($usrarr[0]) && password_verify($pw, $usrarr[0]["pass_hash"])) {
+            return $usrarr[0]["id"];
+        }
+        return null;
     }
 }
