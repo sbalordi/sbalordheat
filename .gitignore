@@ -53,3 +53,6 @@ composer.phar
 # Server stuff
 mysql/
 .htaccess
+
+# Secrets
+/inc/config.php
