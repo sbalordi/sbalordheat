@@ -7,7 +7,7 @@
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto mb-5 flex-column">
         <?php include __DIR__ . "/../style_components/cover.php" ?>
 
-        <main class="px-3 mb-5 mt-auto">
+        <main class="px-3 mb-5 mt-5">
           <h1 class="brand text-light">Energia sostenibile.</h1>
           <p class="lead text-light">Per un futuro migliore.</p>
           <p class="lead">
@@ -15,7 +15,7 @@
           </p>
         </main>
       </div>
-      <div class="container w-100 p-4 mt-auto bg-transparent">
+      <div class="container w-100 p-4 mt-5 bg-transparent">
         <div class="d-flex flex-column flex-lg-row">
           <div class="d-flex flex-column content-align-center">
             <h1 class="text-light section-brand mb-3">Chi siamo?</h1>
