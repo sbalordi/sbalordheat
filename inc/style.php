@@ -35,6 +35,13 @@
         font-weight: 700;
     }
 
+    .section-brand {
+      font-size: 2rem;
+      font-width: 87.5;
+      font-family: 'Noto Serif Display';
+      font-weight: 700;
+    }
+
     .nav-brand {
       font-width: 87.5;
       font-family: 'Noto Serif Display';

@@ -15,8 +15,8 @@
           </p>
         </main>
       </div>
-      <div class="container d-flex w-100 bg-black">
-        <h1 class="text-light">Test</h1>
+      <div class="container d-flex w-100 p-4 bg-black">
+        <h1 class="text-light section-brand">Test</h1>
       </div>
     </body>
 </html>
