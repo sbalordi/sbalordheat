@@ -16,6 +16,9 @@
                 <a class="nav-link" aria-current="page" href="/contacts">Contacts</a>
             </div>
             <hr>
+            <div class="navbar-nav me-0 mb-2 mb-lg-0 d-flex flex-row">
+              <a class="nav-link p-2" aria-current="page" href="/user"><i class="bi bi-person-circle"></i></a>
+            </div>
         </div>
     </div>
 </nav>
