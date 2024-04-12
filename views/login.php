@@ -19,6 +19,7 @@ session_start();
           <label for="password">Password</label><br>
           <input type="password" class="form-control" name="password" required><br>
           <input type="submit" class="btn btn-primary" value="Login">
+          <p>Non disponete di un account? <a href="/register">Registratevi</a></p>
       </form>
       <?php
       $model = new UserModel();
