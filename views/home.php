@@ -16,7 +16,7 @@
         </header>
 
         <main class="px-3 mb-auto">
-          <h1>Energia sostenibile.</h1>
+          <h1 class="brand">Energia sostenibile.</h1>
           <p class="lead">Per un futuro migliore.</p>
           <p class="lead">
             <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Scopri di più</a>

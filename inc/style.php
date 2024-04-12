@@ -5,7 +5,8 @@
 <style>
     @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
     @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-    
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+ 
     .test {
         background: rgb(0,0,0);
         background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); 
@@ -34,9 +35,9 @@
     }
 
     .brand {
-        font-size: 5rem;
-        font-family: 'Tilt Neon';
-        font-weight: 900;
+        font-width: 87.5;
+        font-family: 'Noto Serif Display';
+        font-weight: 700;
     }
 
     .subtitle {
