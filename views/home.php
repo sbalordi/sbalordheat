@@ -15,7 +15,7 @@
           </div>
         </header>
 
-        <main class="px-3">
+        <main class="px-3 mb-5">
           <h1>Energia sostenibile.</h1>
           <p class="lead">Per un futuro migliore.</p>
           <p class="lead">
