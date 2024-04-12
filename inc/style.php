@@ -30,7 +30,7 @@
     }
 
     * {
-        font-family: 'Arial';
+        font-family: 'Open Sans';
     }
 
     .brand {
