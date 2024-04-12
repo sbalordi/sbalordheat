@@ -15,10 +15,10 @@
           </p>
         </main>
       </div>
-      <div class="container w-100 p-4 bg-transparent text-lg-left">
-        <h1 class="text-light section-brand">Chi siamo?</h1>
+      <div class="container w-100 p-4 bg-transparent">
         <div class="d-flex flex-column flex-lg-row">
-          <div class="d-flex flex-column">
+          <div class="d-flex flex-column content-align-center">
+            <h1 class="text-light section-brand">Chi siamo?</h1>
             <p class="text-light">Benvenuti su SbalordHEAT, un punto di riferimento nell'innovazione energetica e nella sostenibilità ambientale. Fondata con l'obiettivo di ridefinire il concetto di produzione energetica, ci impegniamo a promuovere un futuro più verde e sostenibile.</p>
 
             <p class="text-light">Nati da 4 brillanti menti dell'Istituto Tecnico Industriale Pino Hensemberger di Monza, ci dedichiamo ormai da anni alla produzione di energia termica ed elettrica, abbracciando le tecnologie più avanzate per ridurre l'impatto ambientale. La nostra missione non si limita alla semplice fornitura di energia, ma si estende alla ricerca e all'implementazione di soluzioni innovative per il riciclo del calore, in particolare nei datacenter, dove ogni watt è prezioso.</p>
