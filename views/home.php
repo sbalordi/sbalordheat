@@ -15,7 +15,7 @@
           </p>
         </main>
       </div>
-      <div class="container w-100 p-4 mt-5 mx-0 w-100 bg-black">
+      <div class="cover-container w-100 p-4 mt-5 mx-0 w-100 bg-black">
         <div class="d-flex flex-column flex-lg-row">
           <div class="d-flex flex-column content-align-center">
             <h1 class="text-light section-brand mb-3">Chi siamo?</h1>
