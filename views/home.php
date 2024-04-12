@@ -8,8 +8,8 @@
         <?php include __DIR__ . "/../style_components/cover.php" ?>
 
         <main class="px-3 mb-auto">
-          <h1 class="brand">Energia sostenibile.</h1>
-          <p class="lead">Per un futuro migliore.</p>
+          <h1 class="brand text-light">Energia sostenibile.</h1>
+          <p class="lead text-light">Per un futuro migliore.</p>
           <p class="lead">
             <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Scopri di più</a>
           </p>
