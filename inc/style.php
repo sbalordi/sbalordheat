@@ -12,8 +12,8 @@
     }
 
     .mainBody {
-        background-image: url("https://static.ohga.it/wp-content/uploads/sites/24/2019/06/iStock-476697500.jpg");
         background-color: rgba(0,0,0,0.50);
+        background-image: url("https://static.ohga.it/wp-content/uploads/sites/24/2019/06/iStock-476697500.jpg");
         background-size: cover;
     }
     
