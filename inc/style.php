@@ -35,6 +35,7 @@
     }
 
     .brand {
+        font-size: 5rem;
         font-width: 87.5;
         font-family: 'Noto Serif Display';
         font-weight: 700;
