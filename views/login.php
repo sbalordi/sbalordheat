@@ -18,7 +18,7 @@ session_start();
           <input type="email" class="form-control" name="email" placeholder="name@example.com" required><br>
           <label for="password">Password</label><br>
           <input type="password" class="form-control" name="password" required><br>
-          <div class="d-inline-flex flex-row align-items-center"><input type="submit" class="btn btn-primary" value="Login"><p class="p-2">Non disponete di un account? <a href="/register">Registratevi</a></p></div>
+          <div class="d-inline-flex flex-row align-items-center"><input type="submit" class="btn btn-primary" value="Login"><p class="m-2">Non disponete di un account? <a href="/register">Registratevi</a></p></div>
       </form>
       <?php
       $model = new UserModel();
