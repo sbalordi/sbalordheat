@@ -1,20 +1,10 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-    <div class="container-fluid">
-        <!-- brand -->
-        <a class="navbar-brand" href="#home">SbalordHEAT</a>
-
-        <!-- toggler per schermi più piccoli -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- contenuti navbar -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav me-auto mb-2 mb-lg-0">
-                <a class="nav-link" aria-current="page" href="#about">About us</a>
-                <a class="nav-link" aria-current="page" href="#products">Products</a>
-            </div>
-            <hr>
-        </div>
-    </div>
-</nav>
+        <header class="mb-auto">
+          <div>
+            <h3 class="float-md-start mb-0 nav-brand">SbalordHEAT</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+              <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#">About us</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+            </nav>
+          </div>
+        </header>
