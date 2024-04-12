@@ -4,15 +4,14 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <style>
     @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
-    @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
-    
-    .test {
-        background: rgb(0,0,0);
-        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); 
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&display=swap');
+ 
+    .paragraph {
+      font-size: 1rem;
     }
 
     .mainBody {
-        background-image: url("https://static.ohga.it/wp-content/uploads/sites/24/2019/06/iStock-476697500.jpg");
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.90) 70%, rgba(0,0,0,0.40) 100%), url("https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2022/09/pale-eoliche-italia.jpg");
         background-size: cover;
     }
     
@@ -25,18 +24,28 @@
         box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
     }
 
-    .bg-b {
-        background-color: #AA99BB;
-    }
-
     * {
-        font-family: 'Arial';
+        font-family: 'Open Sans';
     }
 
     .brand {
-        font-size: 5rem;
-        font-family: 'Tilt Neon';
-        font-weight: 900;
+        font-size: 7rem;
+        font-width: 87.5;
+        font-family: 'Noto Serif Display';
+        font-weight: 700;
+    }
+
+    .section-brand {
+      font-size: 2rem;
+      font-width: 87.5;
+      font-family: 'Noto Serif Display';
+      font-weight: 700;
+    }
+
+    .nav-brand {
+      font-width: 87.5;
+      font-family: 'Noto Serif Display';
+      font-weight: 700;
     }
 
     .subtitle {
@@ -47,11 +56,14 @@
         margin-top: 6rem;
     }
 
-
-
     @media (max-width: 600px) {
         .brand {
             font-size: 3rem;
+        }
+
+        .mainBody {
+          background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,0.90) 50%, rgba(0,0,0,0.40) 100%), url("https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2022/09/pale-eoliche-italia.jpg");
+          background-size: cover;
         }
     }
 </style>

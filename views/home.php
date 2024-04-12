@@ -1,21 +1,32 @@
 <html>
     <head>
         <?php include __DIR__ . "/../inc/style.php"; ?>
+        <?php include __DIR__ . "/../inc/cover_style.php"; ?>
     </head>
-    <body class="bg-image mainBody">
-        <?php include __DIR__ . "/../style_components/navbar.php"; ?>
-        <main>
-            <div class="px-5 py-4 my-5 text-left" id="home">
-                <!-- brand -->
-                <h1 class="position-relative top-50 mb-3 mt-6 brand">Energia sostenibile.</h1>
-                <h4 class="position-relative top-50 mb-3 mx-5 text-body-tertiary subtitle">Per te. Per tutti.</h4>
-            </div>
-            <div class="px-5 py-4 my-5 test">
-                <div class="text-left">
-                    <h2>Ti accompagnamo nel futuro.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
+    <body class="bg-image mainBody d-flex h-100 text-center flex-column overflow-scroll">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto mb-5 flex-column">
+        <?php include __DIR__ . "/../style_components/cover.php" ?>
+
+        <main class="px-3 mb-5 mt-5">
+          <h1 class="brand text-light">Energia sostenibile.</h1>
+          <p class="lead text-light">Per un futuro migliore.</p>
+          <p class="lead">
+            <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Scopri di più</a>
+          </p>
         </main>
+      </div>
+      <div class="container-fluid w-100 bg-black">
+        <div class="container w-100 p-4 mt-5">
+          <div class="d-flex flex-column flex-lg-row">
+            <div class="d-flex flex-column content-align-center">
+              <h1 class="text-light section-brand mb-3">Chi siamo?</h1>
+              <p class="text-light">Benvenuti su SbalordHEAT, un punto di riferimento nell'innovazione energetica e nella sostenibilità ambientale. Fondata con l'obiettivo di ridefinire il concetto di produzione energetica, ci impegniamo a promuovere un futuro più verde e sostenibile.</p>
+
+              <p class="text-light">Nati da 4 brillanti menti dell'Istituto Tecnico Industriale Pino Hensemberger di Monza, ci dedichiamo ormai da anni alla produzione di energia termica ed elettrica, abbracciando le tecnologie più avanzate per ridurre l'impatto ambientale. La nostra missione non si limita alla semplice fornitura di energia, ma si estende alla ricerca e all'implementazione di soluzioni innovative per il riciclo del calore, in particolare nei datacenter, dove ogni watt è prezioso.</p>
+            </div>
+            <img class="img-fluid border rounded-3 m-3" src="https://cercalatuascuola.istruzione.it/cercalatuascuola/render/document/MBTF410002;jsessionid=uO4p6yUIHeDPX7-ZeyGva5CN.mvlas008_2?codTipFil=8&prgDoc=1&x=">
+          </div>
+        </div>
+      </div>
     </body>
 </html>
