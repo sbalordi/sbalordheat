@@ -3,7 +3,7 @@
         <?php include __DIR__ . "/../inc/style.php"; ?>
         <?php include __DIR__ . "/../inc/cover_style.php"; ?>
     </head>
-    <body class="bg-image mainBody d-flex h-100 text-center flex-column">
+    <body class="bg-image mainBody d-flex h-100 text-center flex-column overflow-scroll">
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <?php include __DIR__ . "/../style_components/cover.php" ?>
 
@@ -16,11 +16,11 @@
         </main>
       </div>
       <div class="container w-100 p-4 bg-black">
-        <h1 class="text-light section-brand">Non solo energia.</h1>
+        <h1 class="text-light section-brand">Chi siamo?</h1>
         <div class="d-flex flex-row">
-          <p>Da anni, ci dedichiamo alla produzione di energia termica ed elettrica, abbracciando le tecnologie più avanzate per ridurre l'impatto ambientale. La nostra missione non si limita alla semplice fornitura di energia, ma si estende alla ricerca e all'implementazione di soluzioni innovative per il riciclo del calore, in particolare nei datacenter, dove ogni watt è prezioso.
+          <p>Benvenuti su SbalordHEAT, un punto di riferimento nell'innovazione energetica e nella sostenibilità ambientale. Fondata con l'obiettivo di ridefinire il concetto di produzione energetica, ci impegniamo a promuovere un futuro più verde e sostenibile.
 
-Ci impegniamo a essere più di un'azienda energetica tradizionale. Sosteniamo attivamente l'utilizzo delle energie rinnovabili e ci adoperiamo per ridurre le emissioni di carbonio attraverso l'adozione di tecnologie all'avanguardia e pratiche sostenibili.</p>
+Da anni, ci dedichiamo alla produzione di energia termica ed elettrica, abbracciando le tecnologie più avanzate per ridurre l'impatto ambientale. La nostra missione non si limita alla semplice fornitura di energia, ma si estende alla ricerca e all'implementazione di soluzioni innovative per il riciclo del calore, in particolare nei datacenter, dove ogni watt è prezioso.</p>
         </div>
       </div>
     </body>
