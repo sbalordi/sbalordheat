@@ -1,7 +1,8 @@
 <?php
-if (session_id() == '') {
+if (!isset($_COOKIE['PHPSESSID'])) {
   header("Location: /login");
 }
+session_start();
 ?>
 
 <!DOCTYPE html>
@@ -14,7 +15,7 @@ if (session_id() == '') {
     <?php
         require __DIR__ . "/../controller/api/UserController.php";
 
-        $id = $_GET["id"];
+        $id = $_SESSION["id"];
 
         $model = new UserModel;
 
