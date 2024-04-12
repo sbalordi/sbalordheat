@@ -15,7 +15,7 @@
           </p>
         </main>
       </div>
-      <div class="container w-100 p-4 bg-transparent">
+      <div class="container w-100 p-4 bg-transparent text-lg-left">
         <h1 class="text-light section-brand">Chi siamo?</h1>
         <div class="d-flex flex-column flex-lg-row">
           <div class="d-flex flex-column">
