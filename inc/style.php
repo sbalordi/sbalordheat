@@ -11,7 +11,7 @@
     }
 
     .mainBody {
-        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.90) 70%, rgba(0,0,0,0.40) 100%), url("https://static.ohga.it/wp-content/uploads/sites/24/2019/06/iStock-476697500.jpg");
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.90) 70%, rgba(0,0,0,0.40) 100%), url("https://staticgeopop.akamaized.net/wp-content/uploads/sites/32/2022/09/pale-eoliche-italia.jpg");
         background-size: cover;
     }
     
