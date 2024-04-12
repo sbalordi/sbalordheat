@@ -3,19 +3,25 @@
         <?php include __DIR__ . "/../inc/style.php"; ?>
     </head>
     <body class="bg-image mainBody">
-        <?php include __DIR__ . "/../style_components/navbar.php"; ?>
-        <main>
-            <div class="px-5 py-4 my-5 text-left" id="home">
-                <!-- brand -->
-                <h1 class="position-relative top-50 mb-3 mt-6 brand">Energia sostenibile.</h1>
-                <h4 class="position-relative top-50 mb-3 mx-5 text-body-tertiary subtitle">Per te. Per tutti.</h4>
-            </div>
-            <div class="px-5 py-4 my-5 test">
-                <div class="text-left">
-                    <h2>Ti accompagnamo nel futuro.</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-            </div>
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+          <div>
+            <h3 class="float-md-start mb-0">SblordHEAT</h3>
+            <nav class="nav nav-masthead justify-content-center float-md-end">
+              <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#">About us</a>
+              <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
+            </nav>
+          </div>
+        </header>
+
+        <main class="px-3">
+          <h1>Energia sostenibile.</h1>
+          <p class="lead">Per un futuro migliore.</p>
+          <p class="lead">
+            <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Scopri di più</a>
+          </p>
         </main>
+      </div>
     </body>
 </html>
