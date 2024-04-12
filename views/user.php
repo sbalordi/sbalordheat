@@ -1,3 +1,9 @@
+<?php
+if (session_id() == '') {
+  header("Location: /login");
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
