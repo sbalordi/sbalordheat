@@ -4,7 +4,7 @@
     </head>
     <body class="bg-image mainBody d-flex h-100 text-center">
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-        <?php include __DIR__ . "/../style_components/navbar.php" ?>
+        <?php include __DIR__ . "/../style_components/cover.php" ?>
 
         <main class="px-3 mb-auto">
           <h1 class="brand">Energia sostenibile.</h1>
