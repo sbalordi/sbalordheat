@@ -18,8 +18,7 @@ session_start();
         <input type="email" class="form-control" name="email" placeholder="name@example.com" required><br>
         <label for="password">Password</label><br>
         <input type="password" class="form-control" name="password" required><br>
-        <input type="submit">
-        <input type="submit" value="Register" onclick="window.location.href='/register'">
+        <input type="submit" class="btn btn-primary">Login
     </form>
     <?php
     $model = new UserModel();
