@@ -12,7 +12,7 @@ session_start();
 </head>
 <body>
     <?php include __DIR__ . "/../style_components/navbar.php"; ?>
-    <div class="w-50 mx-auto my-5">
+    <div class="container w-50 mx-auto my-5">
     <form action="/login" method="POST">
         <label for="email">E-Mail</label><br>
         <input type="email" class="form-control" name="email" placeholder="name@example.com" required><br>
