@@ -4,7 +4,7 @@
         <?php include __DIR__ . "/../inc/cover_style.php"; ?>
     </head>
     <body class="bg-image mainBody d-flex h-100 text-center flex-column overflow-scroll">
-      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <div class="cover-container d-flex w-100 h-100 p-3 mx-auto mb-5 flex-column">
         <?php include __DIR__ . "/../style_components/cover.php" ?>
 
         <main class="px-3 mb-auto">
