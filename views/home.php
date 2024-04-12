@@ -2,7 +2,7 @@
     <head>
         <?php include __DIR__ . "/../inc/style.php"; ?>
     </head>
-    <body class="bg-image mainBody">
+    <body class="bg-image mainBody d-flex h-100 text-center">
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <header class="mb-auto">
           <div>
