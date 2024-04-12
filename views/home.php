@@ -15,7 +15,7 @@
           </p>
         </main>
       </div>
-      <div class="container d-flex w-100 h-100 bg-black">
+      <div class="container d-flex w-100 bg-black">
         <h1 class="text-light">Test</h1>
       </div>
     </body>
