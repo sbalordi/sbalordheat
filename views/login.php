@@ -12,13 +12,13 @@ session_start();
 </head>
 <body>
     <?php include __DIR__ . "/../style_components/navbar.php"; ?>
-    <div class="w-100 m-auto">
+    <div class="w-50 m-auto">
     <form action="/login" method="POST">
         <label for="email">E-Mail</label><br>
         <input type="email" class="form-control" name="email" placeholder="name@example.com" required><br>
         <label for="password">Password</label><br>
         <input type="password" class="form-control" name="password" required><br>
-        <input type="submit" class="btn btn-primary">Login
+        <input type="submit" class="btn btn-primary" value="Login">
     </form>
     <?php
     $model = new UserModel();
