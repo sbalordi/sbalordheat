@@ -11,7 +11,7 @@
     }
 
     .mainBody {
-        background: linear-gradient(rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url("https://static.ohga.it/wp-content/uploads/sites/24/2019/06/iStock-476697500.jpg");
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.20) 50%, rgba(0,0,0,0.40) 100%), url("https://static.ohga.it/wp-content/uploads/sites/24/2019/06/iStock-476697500.jpg");
         background-size: cover;
     }
     

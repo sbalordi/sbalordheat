@@ -3,7 +3,7 @@
         <?php include __DIR__ . "/../inc/style.php"; ?>
         <?php include __DIR__ . "/../inc/cover_style.php"; ?>
     </head>
-    <body class="bg-image mainBody h-100 text-center">
+    <body class="bg-image mainBody d-flex h-100 text-center flex-column">
       <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
         <?php include __DIR__ . "/../style_components/cover.php" ?>
 
@@ -15,9 +15,8 @@
           </p>
         </main>
       </div>
-      <div class="test container w-100 h-1 p-5 m-0"></div>
       <div class="container d-flex w-100 h-100 bg-black">
-        <h1>Test</h1>
+        <h1 class="text-light">Test</h1>
       </div>
     </body>
 </html>
