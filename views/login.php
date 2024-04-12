@@ -10,7 +10,7 @@ session_start();
     include __DIR__ . "/../inc/style.php"; 
     ?>
   </head>
-  <body class="d-flex">
+  <body>
     <?php include __DIR__ . "/../style_components/navbar.php"; ?>
     <div class="container w-50 mx-auto mt-6">
       <form action="/login" method="POST">
@@ -18,7 +18,7 @@ session_start();
           <input type="email" class="form-control" name="email" placeholder="name@example.com" required><br>
           <label for="password">Password</label><br>
           <input type="password" class="form-control" name="password" required><br>
-          <input type="submit" class="btn btn-primary" value="Login"><p>Non disponete di un account? <a href="/register">Registratevi</a></p>
+          <div class="d-inline-flex flex-row"><input type="submit" class="btn btn-primary" value="Login"><p>Non disponete di un account? <a href="/register">Registratevi</a></p></div>
       </form>
       <?php
       $model = new UserModel();
