@@ -7,8 +7,8 @@ class UserModel extends Database {
         return isset($usrarr[0])? $usrarr[0] : null;
     }
 
-    public function addUser($username, $email, $pw) {
-        $this->executeStatement("INSERT INTO users (username, email, pass_hash) VALUES (?, ?, ?)", ["sss", $username, $email, password_hash($pw, PASSWORD_DEFAULT)]);
+    public function addUser($username, $email, $pw, $nome, $cognome, $azienda){
+        $this->executeStatement("INSERT INTO users (username, email, pass_hash, nome, cognome, azienda) VALUES (?, ?, ?, ?, ?, ?)", ["sss", $username, $email, password_hash($pw, PASSWORD_DEFAULT), $nome, $cognome, $azienda]);
     }
 
     public function login($email, $pw) {

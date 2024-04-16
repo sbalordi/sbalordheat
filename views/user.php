@@ -1,8 +1,13 @@
 <?php
-if (!isset($_COOKIE['PHPSESSID'])) {
-  header("Location: /login");
+ob_start();
+if(session_id() == '' || !isset($_SESSION)) {
+    session_start();
 }
-session_start();
+
+if (!isset($_SESSION['id'])) {
+  header("Location: /login");
+  exit();
+}
 ?>
 
 <!DOCTYPE html>
@@ -22,11 +27,23 @@ session_start();
     $user = $model->getUser($id);
 
     if ($user) {
-      echo "<p>".$user["username"]."</p>";
-      echo "<p>".$user["email"]."</p>";
+    ?>
+    <div class="container mt-6 w-50 mx-auto">
+      <h1>Profilo</h1>
+      <p>Benvenuto, <?php echo $user["username"]; ?></p>
+      <p>Email: <?php echo $user["email"]; ?></p>
+      <p>Nome: <?php echo $user["name"]; ?></p>
+      
+    <?php
     } else {
       require __DIR__ . "/404.php";
     }
     ?>
+    <div class="container mt-6 w-50 mx-auto">
+      
   </body>
 </html>
+
+<?php
+ob_end_flush();
+?>
