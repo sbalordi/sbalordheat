@@ -21,7 +21,6 @@ class UserModel extends Database {
         }
         return null;
     }
-
     public function logout() {
         if (session_id() != '' || isset($_SESSION)) {
             session_unset();
@@ -29,5 +28,4 @@ class UserModel extends Database {
             header("Location: /login");
         }
     }
-
 }

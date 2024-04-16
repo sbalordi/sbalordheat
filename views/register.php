@@ -12,7 +12,6 @@ $model = new UserModel;
   </head>
   <body>
     <?php 
-
     include __DIR__ . "/../style_components/navbar.php";
     if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       try {
@@ -68,9 +67,6 @@ $model = new UserModel;
         </div>
       </div>
     </div>
-          
-        
-        
   </body>
 </html>
 <?php

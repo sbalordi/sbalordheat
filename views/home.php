@@ -20,7 +20,7 @@ if(!isset($_SESSION['id'])) {
           <h1 class="brand text-light">Energia sostenibile.</h1>
           <p class="lead text-light">Per un futuro migliore.</p>
           <p class="lead">
-            <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Scopri di più</a>
+            <a href="#about" class="btn btn-lg btn-light fw-bold border-white bg-white">Scopri di più</a>
           </p>
         </main>
       </div>
@@ -28,7 +28,7 @@ if(!isset($_SESSION['id'])) {
         <div class="container w-100 p-4 mt-5">
           <div class="d-flex flex-column flex-lg-row">
             <div class="d-flex flex-column content-align-center">
-              <h1 class="text-light section-brand mb-3">Chi siamo?</h1>
+              <h1 class="text-light section-brand mb-3" id="about">Chi siamo?</h1>
               <p class="text-light">Benvenuti su SbalordHEAT, un punto di riferimento nell'innovazione energetica e nella sostenibilità ambientale. Fondata con l'obiettivo di ridefinire il concetto di produzione energetica, ci impegniamo a promuovere un futuro più verde e sostenibile.</p>
 
               <p class="text-light">Nati da 4 brillanti menti dell'Istituto Tecnico Industriale Pino Hensemberger di Monza, ci dedichiamo ormai da anni alla produzione di energia termica ed elettrica, abbracciando le tecnologie più avanzate per ridurre l'impatto ambientale. La nostra missione non si limita alla semplice fornitura di energia, ma si estende alla ricerca e all'implementazione di soluzioni innovative per il riciclo del calore, in particolare nei datacenter, dove ogni watt è prezioso.</p>
