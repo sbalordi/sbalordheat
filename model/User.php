@@ -3,7 +3,7 @@
 
 class UserModel extends Database {
     public function getUser($id) {
-        $usrarr = $this->select("SELECT id, username, email FROM users WHERE id=?", ["i", $id]);
+        $usrarr = $this->select("SELECT id, username, email, nome, cognome, azienda FROM users WHERE id=?", ["i", $id]);
         return isset($usrarr[0])? $usrarr[0] : null;
     }
 
@@ -21,4 +21,13 @@ class UserModel extends Database {
         }
         return null;
     }
+
+    public function logout() {
+        if (session_id() != '' || isset($_SESSION)) {
+            session_unset();
+            session_destroy();
+            header("Location: /login");
+        }
+    }
+
 }
