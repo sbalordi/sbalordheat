@@ -13,6 +13,8 @@ session_start();
   <body>
     <?php include __DIR__ . "/../style_components/navbar.php"; ?>
     <div class="container w-50 mx-auto mt-6">
+      <div class="card text-black" style="border-radius: 25px;">
+        <div class="card-body p-md-5">
       <form action="/login" method="POST">
           <label for="email">E-Mail</label><br>
           <input type="email" class="form-control" name="email" placeholder="name@example.com" required><br>
@@ -37,6 +39,8 @@ session_start();
         }
       }
       ?>
+        </div>
+      </div>
     </div>
   </body>
 </html>

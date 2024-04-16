@@ -1,3 +1,12 @@
+<?php
+if(session_id() == '' || !isset($_SESSION)) {
+    session_start();
+}
+if(!isset($_SESSION['id'])) {
+    session_unset();
+    session_destroy();
+}
+?>
 <html>
     <head>
         <?php include __DIR__ . "/../inc/style.php"; ?>
