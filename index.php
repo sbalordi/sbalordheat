@@ -14,6 +14,7 @@ $path = match (1) {
     preg_match("/\/register/i", $req) => "/views/register.php",
     preg_match("/\/$/", $req) => "/views/home.php",
     preg_match("/\/login/i", $req) => "/views/login.php",
+    preg_match("/\/contacts/i", $req) => "/views/contacts.php",
     default => "/views/404.php"
 };
 
