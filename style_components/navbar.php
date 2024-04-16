@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
     <div class="container-fluid">
         <!-- brand -->
         <a class="nav-brand navbar-brand">SbalordHEAT</a>
